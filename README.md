@@ -59,11 +59,6 @@ dotnet run
 
 6. Open the application URL displayed in the terminal and verify that the TreeView successfully displays both local and remote data sources.
 
-## Project Structure
-
-
-`Client/Pages/Index.razor` — hosts the Syncfusion TreeView implementation and demonstrates local list binding and remote service URL binding scenarios.
-
 ## Support and Feedback
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
