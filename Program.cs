@@ -1,4 +1,4 @@
-using BindingListDataSample.Client;
+using BindingListDataSample;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Syncfusion.Blazor;

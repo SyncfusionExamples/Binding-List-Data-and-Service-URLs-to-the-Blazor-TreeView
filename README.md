@@ -21,8 +21,17 @@ The purpose of this project is to help developers understand how to bind differe
 
 ## Prerequisites
 Ensure the following requirements are met before running this project:
-- Visual Studio 2022  
-- .NET SDK compatible with Blazor WebAssembly  
+- .NET 10.0 SDK
+- Visual Studio 2022 (v17.14 or later) or Visual Studio Code with the C# extension
+
+## Project Structure (.NET 10)
+This sample targets .NET 10 using the current Blazor WebAssembly standalone project layout:
+- `BindingListDataSample/` – single-project Blazor WebAssembly app
+  - `Program.cs` – app entry point (registers Syncfusion Blazor services)
+  - `App.razor` – root component with the Router
+  - `Layout/MainLayout.razor` – main layout
+  - `Pages/Index.razor` – TreeView sample page
+  - `wwwroot/` – static assets (index.html, CSS)
 
 ## Installation and Running the Project
 1. Check out or clone this repository to a local directory.
